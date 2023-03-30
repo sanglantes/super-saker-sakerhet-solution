@@ -82,7 +82,6 @@ After compiling this program, we can use a simple Python script that passes the 
 With some Bash magic, we can pipe the output from `show_password` to a netcat instance connecting to the challenge server like this:
 
 `$ ./show_time "$(python3 -c 'from time import time; from math import floor; print(floor(time()))')" | nc 35.217.50.247 50000`
-
 Välkommen! Var vänlig mata in lösenordet.
 Grattis! Flaggan är: SSM{w0w_m1n_54k3rh37_v4r_1n73_71llr4ckl16}`
 
