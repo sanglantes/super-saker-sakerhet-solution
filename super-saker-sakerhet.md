@@ -69,7 +69,7 @@ int main(int argc, char* argv[]) {
         password *= rand();
     }
     
-    printf("%llu\n", password);
+    printf("%llu", password);
     return 0;
 }
 ```
